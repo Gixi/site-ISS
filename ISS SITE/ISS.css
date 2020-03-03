@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+/* fond d'écran et type de police */
+
+body {
+    font-family: 'Trebuchet MS', cursive;
+    background-image:url("espace.jpeg");
+    background-size: 1900px;
+}
+/* accueil de le page */
+
+#titre {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#photoISS {
+    height:250px;
+    width:1000px;
+    padding:5px;
+}
+
+#intro {
+    text-align: justify;
+    width:700px;
+    padding:7px;
+    color: rgb(228, 218, 218);
+    font-weight: bold;
+    font-size: 27px;
+    background-color: #270053;
+    height: 375px;
+    margin-left: 610px;
+    margin-top: -360px;
+    border-radius: 50px;
+}
+
+#sommaire {
+    text-align: justify;
+    height: -55px;
+    width: 325px;
+    padding:7px;
+    color: white;
+    margin-left:1375px;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-top: -640px;
+    background-color: black;
+}
+
+#laboISS {
+    margin-top: -150px;
+    margin-left: 1325px;
+    height: -500px;
+    width: 50px;
+    padding: 5px;
+}
+
+/* bas de page */
+
+#bas_page {
+    background-color: #000000;
+    color: #dbdbdb;
+    padding: 32px 15%;
+    margin-top: 320px; 
+    height: 190px;
+    
+}
+
+#bas_barre {
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    background-color: #474747;
+    margin: 24px 0; 
+}
+
+#bas_ISS {
+    height: 1px;
+    width: 100%;
+    background-color: #00000000;
+    margin-left: 450px; 
+    font-size: 50px;
+    margin-top: 50px;
+}
+    
+#bas_contact {
+    margin-top: -100px;
+    margin-bottom: 32px;
+    color: #fffafa; 
+    font-size: 25px;
+}
+    
+#bas_insta {
+    margin-top: 5px;
+    margin-left: 180px;
+    color: #fffefe;
+}
+    
+#bas_nom {
+    margin-top: 50px;
+    margin-left: 2px;
+    color:#858585;
+}
+
+#bas_informations {
+    margin-top: -180px;
+    margin-bottom: 32px;
+    color: #858585; 
+    float: center;
+    font-size: 25px;
+}
+
+/* l'ISS, qu'est-ce que c'est */
+
+#titre1 {
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#Construction {
+    font-size: 60px;
+    color: white;
+    text-decoration: underline;
+}
+
+#c2 {
+    color: white;
+    font-size: 35px;
+    text-align: justify;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#iss_2011 {
+    margin-left:20px;
+    margin-top:80px;
+}
+
+#description {
+    font-size:35px;
+    color:white;
+    margin-left:650px;
+    margin-top: -400px;
+    text-align: justify;
+    width:700px;
+    background-color:black; 
+    border-radius: 20px;
+}
+
+#utilité {
+    font-size: 60px;
+    margin-top: 350px;
+    color: white;
+    text-decoration: underline;
+}
+
+#labos {
+    font-size:35px;
+    color:white;
+    margin-top: 60px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#bouton1 {
+    margin-left: 1650px;
+}
+
+/* Plan ISS */
+
+#plan_ISS {
+    margin-left:5px;
+}
+
+#texte_plan {
+    font-size: 50px;
+    color: white;
+    margin-left: 800px;
+    margin-top: -500px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: justify;
+} 
+
+#bouton2 {
+    margin-left: 1650px;
+    margin-top: 200px;    
+}
+
+#configuration_ISS {
+    margin-left: 5px;
+    margin-top: 425px;
+    background-color: white;
+    width: 800px;
+}
+
+#texte_configuration {
+    font-size: 50px;
+    color: white;
+    margin-left: 820px;
+    margin-top: -520px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+/* Thomas Pesquet */
+
+#Thomas_P {
+    margin-left: 850px;
+    margin-top: 30px;
+}
+
+#texte_TP {
+    font-size: 35px;
+    color: white;
+    width: 800px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-top: -625px;
+    background-color: black;
+    padding:15px;
+    border-radius: 20px;
+}
+
+#texte_TP2 {
+    font-size: 35px;
+    color:white;
+    width: 900px;
+    text-align: justify;
+    margin-left: 880px;
+    margin-top: -225px;
+    background-color: black;
+    padding:15px;
+    border-radius: 20px;
+}
+
+#bouton3 {
+    margin-left: 5px;
+    margin-top: -100px;
+}
+
+/* plus d'informations */
+
+#titre2 {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    height: 360px;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+#presentation {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: justify;
+    border-radius: 5px;
+    width:485px;
+    padding:7px;
+    margin-left: 50px;
+    margin-top: -220px;
+
+}
+
+#Pourquoi {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    height: 490px;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: 1300px;
+    text-decoration: underline;
+    margin-top: -280px;
+}
+
+#reppq {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: justify;
+    border-radius: 5px;
+    width:485px;
+    padding:7px;
+    margin-left: 1300px;
+    margin-top: -280px;
+}
+
+#imagej23 {
+    height:250px;
+    width:1000px;
+    padding:5px;
+    margin-left: 700px;
+    margin-top: -300px;
+}
+
+#j23 {
+    margin-left:50px;
+}
+
+#soyuz {
+    margin-left:950px;
+    margin-top:-300px;
+}
+
+
+#bouton4 {
+    margin-left: 600px;
+    margin-top: -150px;
+}
